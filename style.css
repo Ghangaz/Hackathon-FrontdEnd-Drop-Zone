@@ -1,0 +1,99 @@
+
+main{
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #130F26;
+}
+
+.drag-drop {
+    align-items: center;
+    text-align: center;
+    background: #130F26;
+    border-radius:5px;
+    border: solid #569b51e3 0.1px;
+    height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 3em;
+    animation: dragdrop 5s infinite;
+     
+}
+
+@keyframes dragdrop{
+  50% {box-shadow:1px 2px 19px 7px #569b51e3;}
+}
+
+.update {
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+
+    position: absolute;
+    width: 822px;
+    height: 56px;
+    left: 53px;
+    top: 790px;
+
+    background: #569B51;
+    border-radius: 5px;
+    color: white;
+}
+
+.tittle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
+}
+
+.info {
+   color: white;
+    right: -20%;
+    top: 41.44%;
+    bottom: 54.78%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    letter-spacing: 0.4px;
+}
+
+.archive-file {
+    margin-bottom: 10px;
+  }
+
+  .btn-login{
+
+    
+  }
+
+  .btn-file{
+
+    font-family: 'Montserrat';
+    
+  }
+
+  .btn{
+
+    color: white;
+    background: #569B51;
+  }
+  .btn:hover{
+    border: solid #569B51;
+    color: white;
+  }
+
+  #fileElement {
+    display: none;
+  }
+
+  #gallery {
+    margin-top: 30px;
+  }
+  #gallery img {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+  } 
